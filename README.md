@@ -2,7 +2,7 @@
 use sdopx to render view files for ThinkJS 3.x
 **install**
 ```
-npm install think-view-xtemplate
+npm install think-view-opx
 ```
 **How To Use**
 ```javascript
