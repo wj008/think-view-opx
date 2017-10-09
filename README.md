@@ -96,8 +96,8 @@ exports.view = {
         beforeRender: function (opx, option) {
             //加入配置项,每次渲染都要执行 模板用 {#key#} 读取
             opx.assignConfig({
-                webname: '测试网站',
-                email: 'test@example.com'
+                webname: '测试网站', // 模板中使用 {#webname#} 读取
+                email: 'test@example.com' // {#email#}
             });
         }
     },
