@@ -42,7 +42,7 @@ exports.view = {
 
         beforeRender: function (opx, option) {
             var Sdopx = opx._Sdopx;
-            //判断避免重复执行注册,只能做一次注册--
+            //判断避免重复执行注册,只能做一次注册（不推荐）--
             if (!Sdopx.loaded) {
                 //注册函数 或注册其他函数
                 Sdopx.registerFunction('hello', function (name) {
