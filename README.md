@@ -1,5 +1,7 @@
 # think-view-opx
 use sdopx to render view files for ThinkJS 3.x
+
+更多帮助：http://www.sdopx.com/
 **install**
 ```
 npm install think-view-opx
