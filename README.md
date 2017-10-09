@@ -26,4 +26,4 @@ exports.view = {
 };
 
 ```
-yyyy-MM-dd HH:mm:ss
+
